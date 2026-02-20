@@ -2,6 +2,9 @@
 
 NutriGen is a cutting-edge AI-powered nutrition assistant designed to provide personalized, scientifically-backed dietary insights. Built with **Streamlit** and powered by **Google’s Gemini AI**, this application transforms how users interact with nutritional data—moving beyond simple calorie counting to holistic health coaching.
 
+# Documentation Link: https://drive.google.com/drive/folders/1fvE2VGLJCKErzEZbOoZv3UndDNrTVDZ1?usp=sharing
+
+# Video Demo Link: https://drive.google.com/file/d/1ZfovjM4DFyufNmQ5yfVFIrZTdsA4GOto/view?usp=drive_link
 ## 🚀 Key Features
 
 NutriGen offers three primary modules to help users master their nutrition:

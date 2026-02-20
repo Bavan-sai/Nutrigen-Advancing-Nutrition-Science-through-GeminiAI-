@@ -54,9 +54,8 @@ st.markdown("---")
 # Sidebar for Navigation
 option = st.sidebar.radio(
     "Choose a Feature",
-    ("Dynamic Nutritional Insights", "Tailored Meal Planning", "Virtual Nutrition Coaching")
+    ("Tailored Meal Planning","Dynamic Nutritional Insights", "Virtual Nutrition Coaching")
 )
-
 # --- SCENARIO 2: DYNAMIC NUTRITIONAL INSIGHTS ---
 if option == "Dynamic Nutritional Insights":
     st.header("🔍 Food Analysis & Insights")
@@ -70,7 +69,7 @@ if option == "Dynamic Nutritional Insights":
                 st.success("Analysis Complete!")
                 st.markdown(response.text)
         else:
-            st.warning("Please enter some food items first.")
+            st.warning("Please enter some food items first.")            
 
 # --- SCENARIO 1: TAILORED MEAL PLANNING ---
 elif option == "Tailored Meal Planning":
@@ -95,6 +94,7 @@ elif option == "Tailored Meal Planning":
             prompt = get_meal_plan_prompt(profile)
             response = model.generate_content(prompt)
             st.markdown(response.text)
+
 
 # --- SCENARIO 3: VIRTUAL NUTRITION COACHING ---
 elif option == "Virtual Nutrition Coaching":
